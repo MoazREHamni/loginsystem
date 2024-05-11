@@ -78,7 +78,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
 </head>
 
 <body>
-    <?php require 'partials/_nav.php' ?>
+    <?php require '_nav.php' ?>
     <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3">
