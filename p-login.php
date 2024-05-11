@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-    <?php require 'partials/_nav.php' ?>
+    <?php require '_nav.php' ?>
     <?php
     if ($login) {
         echo '
